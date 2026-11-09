@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Copper Kettle · Even niets. Alleen thee.</title>
+<meta name="description" content="Copper Kettle: vier smaken thee voor jouw rustmoment. Schrijf je in en krijg 10 % op je eerste bestelling.">
+<meta property="og:title" content="Copper Kettle · Even niets. Alleen thee.">
+<meta property="og:image" content="hero.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;0,6..96,600;1,6..96,500&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+<!-- MailerLite Universal -->
+<script>
+(function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[]).push(arguments);},l=d.createElement(e),l.async=1,l.src=u,n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+ml('account', '2755873');
+</script>
+<style>
+:root{
+  --groen:#224F38; --groen-d:#173A28; --koper:#B4693E; --koper-l:#D08A5C;
+  --room:#F3EBDD; --bruin:#2B211B; --citroen:#A8C79B; --honing:#E0B04F;
+  --kurkuma:#D98B3F; --bes:#D68A8C;
+  --serif:'Bodoni Moda', Georgia, serif; --sans:'Karla', system-ui, sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);color:var(--bruin);background:var(--room);line-height:1.6;font-size:17px}
+img,video{display:block;max-width:100%}
+a{color:inherit}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.1;letter-spacing:-.01em}
+em{font-style:italic;color:var(--koper-l)}
+.eyebrow{font-size:.78rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--koper)}
+.wrap{width:min(1160px,90vw);margin:0 auto}
+.btn{display:inline-block;background:var(--koper);color:var(--room);text-decoration:none;font-weight:700;
+  letter-spacing:.08em;text-transform:uppercase;font-size:.85rem;padding:1rem 1.8rem;border-radius:999px;transition:background .2s,transform .2s}
+.btn:hover{background:var(--koper-l);transform:translateY(-2px)}
+.btn.ghost{background:transparent;border:1.5px solid var(--room)}
+.btn.ghost:hover{background:var(--room);color:var(--groen)}
+
+/* nav */
+nav{position:absolute;top:0;left:0;right:0;z-index:10;padding:1.4rem 0}
+nav .wrap{display:flex;align-items:center;justify-content:space-between}
+nav img{height:38px;width:auto}
+nav .btn{padding:.7rem 1.3rem;font-size:.75rem}
+
+/* hero */
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;color:var(--room);overflow:hidden;background:var(--groen-d)}
+.hero .herobg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:65% center}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(23,58,40,.94) 0%,rgba(23,58,40,.7) 38%,rgba(23,58,40,.05) 75%)}
+.hero .wrap{position:relative;z-index:2;padding:8rem 0 5rem}
+.hero h1{font-size:clamp(2.8rem,7vw,5.6rem);max-width:12ch;margin:1rem 0 1.4rem}
+.hero p{font-size:1.15rem;max-width:34rem;opacity:.9;margin-bottom:2.2rem}
+.hero .actions{display:flex;gap:1rem;flex-wrap:wrap}
+.hero .eyebrow{color:var(--koper-l)}
+
+/* story */
+section{padding:6.5rem 0}
+.story .wrap{display:grid;grid-template-columns:1.1fr 1fr;gap:4.5rem;align-items:center}
+.story h2{font-size:clamp(2.2rem,4vw,3.4rem);margin:.8rem 0 1.4rem;color:var(--groen)}
+.story em,.smaken em,.momenten em{color:var(--koper)}
+.story p+p{margin-top:1rem}
+.story figure{position:relative}
+.story figure img{border-radius:6px;box-shadow:0 30px 60px -25px rgba(43,33,27,.45)}
+.story figure figcaption{position:absolute;left:-1.5rem;bottom:-1.5rem;background:var(--groen);color:var(--room);
+  font-family:var(--serif);font-style:italic;font-size:1.25rem;padding:1.1rem 1.5rem;border-radius:4px}
+.cijfers{display:flex;gap:2.5rem;margin-top:2.2rem;padding-top:1.8rem;border-top:1px solid rgba(43,33,27,.15)}
+.cijfers b{display:block;font-family:var(--serif);font-size:2rem;color:var(--koper);font-weight:500}
+.cijfers span{font-size:.85rem}
+
+/* smaken */
+.smaken{background:#EBE0CE}
+.kop{text-align:center;max-width:40rem;margin:0 auto 3.5rem}
+.kop h2{font-size:clamp(2.2rem,4vw,3.2rem);color:var(--groen);margin-top:.8rem}
+.kop p{margin-top:1rem}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:1.4rem}
+.smaak{background:var(--room);border-radius:6px;padding:1.8rem 1.5rem 2rem;border-top:6px solid var(--c)}
+.smaak .dot{width:46px;height:46px;border-radius:50%;background:var(--c);margin-bottom:1.3rem;display:grid;place-items:center;
+  color:var(--room);font-family:var(--serif);font-style:italic;font-size:1.3rem}
+.smaak h3{font-size:1.45rem;color:var(--groen);margin-bottom:.6rem}
+.smaak p{font-size:.95rem}
+.smaak small{display:block;margin-top:1rem;font-size:.75rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--koper)}
+
+/* momenten / beelden */
+.momenten .rij{display:grid;grid-template-columns:2fr 1fr;gap:1.4rem}
+.momenten .rij+.rij{margin-top:1.4rem;grid-template-columns:1fr 2fr}
+.momenten figure{position:relative;overflow:hidden;border-radius:6px;background:var(--groen)}
+.momenten figure img{width:100%;height:100%;object-fit:cover;aspect-ratio:auto;transition:transform .6s}
+.momenten figure:hover img{transform:scale(1.04)}
+.momenten figcaption{position:absolute;left:1.2rem;bottom:1.1rem;color:var(--room);font-family:var(--serif);font-style:italic;font-size:1.2rem;
+  text-shadow:0 2px 12px rgba(0,0,0,.5)}
+.momenten .tall{aspect-ratio:3/4}.momenten .wide{aspect-ratio:16/9}
+
+.film{background:var(--groen-d);color:var(--room)}
+.film .kop h2{color:var(--room)}.film em{color:var(--koper-l)}
+.player{max-width:960px;margin:0 auto;border-radius:8px;overflow:hidden;box-shadow:0 40px 80px -30px rgba(0,0,0,.7)}
+.player video{width:100%}
+/* CTA + form */
+.cta{background:var(--groen);color:var(--room);position:relative;overflow:hidden}
+.cta .wrap{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}
+.cta h2{font-size:clamp(2.4rem,4.5vw,3.8rem);margin:.8rem 0 1.2rem}
+.cta .eyebrow{color:var(--koper-l)}
+.cta ul{list-style:none;margin-top:1.6rem}
+.cta li{padding:.45rem 0 .45rem 1.8rem;position:relative}
+.cta li::before{content:"";position:absolute;left:0;top:.95rem;width:10px;height:10px;border-radius:50%;background:var(--koper-l)}
+.code{display:inline-block;margin-top:1.6rem;border:1.5px dashed var(--koper-l);padding:.6rem 1.1rem;border-radius:4px;
+  font-weight:700;letter-spacing:.14em}
+.formkaart{background:var(--room);color:var(--bruin);border-radius:8px;padding:.6rem;min-height:320px;box-shadow:0 30px 70px -30px rgba(0,0,0,.6)}
+
+footer{background:var(--groen-d);color:var(--room);padding:3rem 0;font-size:.85rem}
+footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:1.5rem;flex-wrap:wrap}
+footer img{height:30px;width:auto}
+footer p{opacity:.7}
+
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none}}
+
+@media (max-width:900px){
+  .story .wrap,.cta .wrap{grid-template-columns:1fr;gap:3rem}
+  .grid4{grid-template-columns:1fr 1fr}
+  .momenten .rij,.momenten .rij+.rij{grid-template-columns:1fr}
+  .momenten .tall{aspect-ratio:4/3}
+  .story figure figcaption{left:1rem}
+}
+@media (max-width:560px){.grid4{grid-template-columns:1fr}.cijfers{gap:1.4rem}nav .btn{display:none}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <img src="logo.svg" alt="Copper Kettle">
+    <a class="btn" href="#inschrijven">Claim je 10 %</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <img class="herobg" src="hero.jpg" alt="">
+  <div class="wrap">
+    <span class="eyebrow">Vier smaken · één moment</span>
+    <h1>Even niets. Alleen <em>thee</em>.</h1>
+    <p>Copper Kettle maakt thee voor de momenten die van jou zijn. Zet de ketel op, laat de dag even los en proef wat tien rustige minuten met je doen.</p>
+    <div class="actions">
+      <a class="btn" href="#inschrijven">Claim je 10 % korting</a>
+      <a class="btn ghost" href="#smaken">Ontdek de smaken</a>
+    </div>
+  </div>
+</header>
+
+<section class="story" id="verhaal">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow">Ons verhaal</span>
+      <h2>Het begint bij het <em>fluiten</em> van de ketel.</h2>
+      <p>Copper Kettle ontstond aan een keukentafel, met een oude koperen ketel die elke ochtend en elke avond hetzelfde deed: even fluiten en iedereen laten stilstaan. Dat moment wilden we in een doosje stoppen.</p>
+      <p>We kiezen zuivere ingrediënten, mengen zonder poespas en verpakken in eerlijk kraftkarton. Geen drukte op het etiket, wel smaak in je kop. Vier smaken, elk voor een ander moment van je dag.</p>
+      <div class="cijfers">
+        <div><b>4</b><span>smaken</span></div>
+        <div><b>20</b><span>zakjes per doos</span></div>
+        <div><b>10 %</b><span>op je eerste bestelling</span></div>
+      </div>
+    </div>
+    <figure class="reveal">
+      <img src="story.jpg" alt="Groene Thee &amp; Citroengras bij het raam in de ochtend" loading="lazy">
+      <figcaption>Fris als de ochtend.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="smaken" id="smaken">
+  <div class="wrap">
+    <div class="kop reveal">
+      <span class="eyebrow">De collectie</span>
+      <h2>Vier smaken, vier <em>momenten</em>.</h2>
+      <p>Van een frisse start tot een zachte afsluiter. Elke doos bevat 20 zakjes.</p>
+    </div>
+    <div class="grid4">
+      <article class="smaak reveal" style="--c:var(--citroen)">
+        <div class="dot">g</div>
+        <h3>Groene Thee &amp; Citroengras</h3>
+        <p>Licht, fris en helder. Voor de ochtend, als je hoofd nog leeg mag zijn.</p>
+        <small>Ochtend</small>
+      </article>
+      <article class="smaak reveal" style="--c:var(--kurkuma)">
+        <div class="dot">k</div>
+        <h3>Gember &amp; Kurkuma</h3>
+        <p>Pittig en warm. Een opkikker voor het middaguur, met een zachte nasmaak.</p>
+        <small>Middag</small>
+      </article>
+      <article class="smaak reveal" style="--c:var(--bes)">
+        <div class="dot">r</div>
+        <h3>Rooibos &amp; Bosvruchten</h3>
+        <p>Rond en fruitig, zonder cafeïne. Voor de lange namiddag en de vroege avond.</p>
+        <small>Namiddag</small>
+      </article>
+      <article class="smaak reveal" style="--c:var(--honing)">
+        <div class="dot">h</div>
+        <h3>Kamille &amp; Honing</h3>
+        <p>Zacht en zoet. De kop waarmee je de dag rustig afsluit.</p>
+        <small>Avond</small>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="film" id="film">
+  <div class="wrap">
+    <div class="kop reveal">
+      <span class="eyebrow">De campagnefilm</span>
+      <h2>Vijftien seconden <em>rust</em>.</h2>
+    </div>
+    <div class="player reveal">
+      <video controls muted playsinline preload="metadata" poster="hero_poster.jpg">
+        <source src="hero.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</section>
+
+<section class="momenten" id="momenten">
+  <div class="wrap">
+    <div class="kop reveal">
+      <span class="eyebrow">Theemomenten</span>
+      <h2>Warm als de <em>avond</em>.</h2>
+    </div>
+    <div class="rij">
+      <figure class="wide reveal"><img src="lineup.jpg" alt="De vier smaken van Copper Kettle op een houten tafel" loading="lazy"><figcaption>De volledige collectie</figcaption></figure>
+      <figure class="tall reveal"><img src="rooibos.jpg" alt="Rooibos &amp; Bosvruchten met een kop thee" loading="lazy"><figcaption>Rooibos &amp; Bosvruchten</figcaption></figure>
+    </div>
+    <div class="rij">
+      <figure class="tall reveal"><img src="groen.jpg" alt="Groene thee &amp; Citroengras met theezakje" loading="lazy"><figcaption>Groene Thee &amp; Citroengras</figcaption></figure>
+      <figure class="wide reveal"><img src="ochtend.jpg" alt="Copper Kettle thee in het ochtendlicht" loading="lazy"><figcaption>Jouw ochtendritueel</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="inschrijven">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow">Welkomstcadeau</span>
+      <h2>Jouw eerste kop is van <em>ons</em>.</h2>
+      <p>Schrijf je in voor de Copper Kettle-brief en ontvang meteen je kortingscode.</p>
+      <ul>
+        <li>10 % op je eerste bestelling</li>
+        <li>Een smaakgids: welke thee past bij welk moment</li>
+        <li>Als eerste nieuwe smaken proeven</li>
+      </ul>
+      <span class="code">CODE: KETEL10</span>
+    </div>
+    <div class="formkaart reveal">
+      <div class="ml-embedded" data-form="2jR5o5"></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <img src="logo.svg" alt="Copper Kettle">
+    <p>© 2026 Copper Kettle · Schoolproject Marketing campagne automatisatie · Elias Dellaert, DVG2C</p>
+  </div>
+</footer>
+
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.15});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
